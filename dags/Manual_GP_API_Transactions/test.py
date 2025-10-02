@@ -1,6 +1,9 @@
 from airflow.decorators import dag, task
 from datetime import datetime, timedelta
 import logging
+from airflow.configuration import conf
+from airflow.utils.session import provide_session
+from airflow.models import Variable
 
 default_args = {
     "owner": "tester",
@@ -22,7 +25,20 @@ def test_log_dag():
     def extract():
         logging.info("DAG is running fine in Airflow 3.0.6! [EXTRACT]")
         print("Hello World Extract")
-        return "Extracted"
+
+        # Log Airflow info (Airflow 3.0+ compatible)
+        from airflow import settings
+        from airflow.configuration import conf
+
+        airflow_info = {
+            "AIRFLOW_HOME": settings.AIRFLOW_HOME,
+            "DAGS_FOLDER": settings.DAGS_FOLDER,
+            "EXECUTOR": conf.get("core", "executor"),
+            "DEFAULT_TIMEZONE": conf.get("core", "default_timezone"),
+        }
+
+        logging.info(f"Airflow Info: {airflow_info}")
+        print(f"Airflow Info: {airflow_info}")
 
     @task
     def transform():

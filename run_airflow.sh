@@ -3,6 +3,7 @@
 # Exit on any error
 set -e
 export AIRFLOW_HOME=/app/airflow
+export AIRFLOW_CONFIG=/app/airflow/airflow.cfg
 source /app/airflow/airflow_env/bin/activate
 
 echo "Starting all Airflow components..."
@@ -17,31 +18,19 @@ PIDS[1]=$!
 airflow triggerer &
 PIDS[2]=$!
 
-airflow api-server --port 8080 &  
+airflow api-server --port 8080 &
 PIDS[3]=$!
 
-# Function to clean up and kill all background processes
+# Function to clean up
 cleanup() {
     echo "Shutting down all Airflow components..."
-    for PID in ${PIDS[*]}; do
-        kill $PID 2>/dev/null
+    for PID in "${PIDS[@]}"; do
+        kill "$PID" 2>/dev/null || true
     done
 }
 
-# Set a trap to run the cleanup function on script exit (e.g., Ctrl+C)
+# Trap exit and kill children
 trap cleanup EXIT
 
-# Wait for any background process to exit
-wait -n
-
-# Check the exit code of the process that finished
-EXIT_CODE=$?
-if [ $EXIT_CODE -ne 0 ]; then
-    echo "A component failed with exit code $EXIT_CODE. Stopping all other components."
-    # The 'trap' will handle the cleanup automatically
-    exit $EXIT_CODE
-else
-    echo "A component finished successfully. Shutting down."
-fi
-
-echo "All Airflow components have been stopped."3
+# Wait for all processes, not just the first to die
+wait -n || true

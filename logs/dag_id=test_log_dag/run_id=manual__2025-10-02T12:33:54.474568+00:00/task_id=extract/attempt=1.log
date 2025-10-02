@@ -1,0 +1,7 @@
+{"timestamp":"2025-10-02T12:33:55.289181","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-10-02T12:33:55.290466","level":"info","event":"Filling up the DagBag from /app/airflow/dags/Manual_GP_API_Transactions/test.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-02T12:33:55.349654","level":"info","event":"DAG is running fine in Airflow 3.0.6! [EXTRACT]","logger":"root"}
+{"timestamp":"2025-10-02T12:33:55.350858Z","level":"info","event":"Hello World Extract","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-02T12:33:55.351250Z","level":"info","event":"Airflow Info: {'AIRFLOW_HOME': '/app/airflow', 'DAGS_FOLDER': '/app/airflow/dags', 'EXECUTOR': 'LocalExecutor', 'SQL_ALCHEMY_CONN': 'airflow-db-not-allowed:///', 'DEFAULT_TIMEZONE': 'utc'}","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-02T12:33:55.350607","level":"info","event":"Airflow Info: {'AIRFLOW_HOME': '/app/airflow', 'DAGS_FOLDER': '/app/airflow/dags', 'EXECUTOR': 'LocalExecutor', 'SQL_ALCHEMY_CONN': 'airflow-db-not-allowed:///', 'DEFAULT_TIMEZONE': 'utc'}","logger":"root"}
+{"timestamp":"2025-10-02T12:33:55.350887","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}

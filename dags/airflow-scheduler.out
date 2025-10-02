@@ -140,3 +140,19 @@
 [2025-10-02T18:47:01.065+0800] {job.py:232} INFO - Heartbeat recovered after 4825.37 seconds
 [2025-10-02T19:40:52.922+0800] {job.py:232} INFO - Heartbeat recovered after 3231.88 seconds
 [2025-10-02T19:43:55.485+0800] {scheduler_job_runner.py:2218} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-02T19:48:58.029+0800] {base.py:220} INFO - checking for stale bundle versions locally
+[2025-10-02T19:48:58.066+0800] {manager.py:122} INFO - DAG bundles loaded: dags-folder, example_dags
+[2025-10-02T19:49:00.087+0800] {scheduler_job_runner.py:2218} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-02T19:54:05.043+0800] {scheduler_job_runner.py:2218} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-02T19:59:09.955+0800] {scheduler_job_runner.py:2218} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-02T20:04:14.828+0800] {scheduler_job_runner.py:2218} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-02T20:09:19.826+0800] {scheduler_job_runner.py:2218} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-02T20:14:24.750+0800] {scheduler_job_runner.py:2218} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-02T20:19:27.639+0800] {base.py:220} INFO - checking for stale bundle versions locally
+[2025-10-02T20:19:27.642+0800] {manager.py:122} INFO - DAG bundles loaded: dags-folder, example_dags
+[2025-10-02T20:19:29.871+0800] {scheduler_job_runner.py:2218} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-02T20:24:34.018+0800] {scheduler_job_runner.py:2218} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-02T20:29:38.162+0800] {scheduler_job_runner.py:2218} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-02T20:34:41.609+0800] {scheduler_job_runner.py:2218} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-02T20:39:41.650+0800] {scheduler_job_runner.py:2218} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-10-02T20:44:41.676+0800] {scheduler_job_runner.py:2218} INFO - Adopting or resetting orphaned tasks for active dag runs
