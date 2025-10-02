@@ -1,36 +1,77 @@
 #!/bin/bash
 # start_airflow.sh
-# Exit on any error
+# This script starts Airflow with custom configuration and handles cleanup
+
+# Exit immediately if a command fails
 set -e
+
+# ----------------------------
+# 1. Environment Variables
+# ----------------------------
 export AIRFLOW_HOME=/app/airflow
 export AIRFLOW_CONFIG=/app/airflow/airflow.cfg
+
+# Optional: add AIRFLOW_HOME permanently for this user
+if ! grep -q "AIRFLOW_HOME=/app/airflow" ~/.bashrc; then
+    echo "export AIRFLOW_HOME=/app/airflow" >> ~/.bashrc
+fi
+if ! grep -q "AIRFLOW_CONFIG=/app/airflow/airflow.cfg" ~/.bashrc; then
+    echo "export AIRFLOW_CONFIG=/app/airflow/airflow.cfg" >> ~/.bashrc
+fi
+
+# Activate virtual environment
 source /app/airflow/airflow_env/bin/activate
 
-echo "Starting all Airflow components..."
+# ----------------------------
+# 2. Prepare log directories
+# ----------------------------
+mkdir -p "$AIRFLOW_HOME/logs"
+mkdir -p "$AIRFLOW_HOME/dags"
+mkdir -p "$AIRFLOW_HOME/plugins"
 
-# Start components in the background and store their PIDs
-airflow scheduler &
-PIDS[0]=$!
+# ----------------------------
+# 3. Start Airflow components
+# ----------------------------
+echo "Starting Airflow components..."
 
-airflow dag-processor &
-PIDS[1]=$!
+# Array to hold PIDs
+declare -a PIDS
 
-airflow triggerer &
-PIDS[2]=$!
+# Start scheduler
+airflow scheduler >> "$AIRFLOW_HOME/logs/scheduler.log" 2>&1 &
+PIDS+=($!)
 
-airflow api-server --port 8080 &
-PIDS[3]=$!
+# Start dag-processor
+airflow dag-processor >> "$AIRFLOW_HOME/logs/dag_processor.log" 2>&1 &
+PIDS+=($!)
 
-# Function to clean up
+# Start triggerer
+airflow triggerer >> "$AIRFLOW_HOME/logs/triggerer.log" 2>&1 &
+PIDS+=($!)
+
+# Start API server on port 8080
+airflow api-server --port 8080 >> "$AIRFLOW_HOME/logs/api_server.log" 2>&1 &
+PIDS+=($!)
+
+# ----------------------------
+# 4. Cleanup function
+# ----------------------------
 cleanup() {
-    echo "Shutting down all Airflow components..."
+    echo "Shutting down Airflow components..."
     for PID in "${PIDS[@]}"; do
-        kill "$PID" 2>/dev/null || true
+        if kill -0 "$PID" 2>/dev/null; then
+            kill "$PID"
+            wait "$PID" 2>/dev/null
+        fi
     done
+    echo "All Airflow components stopped."
 }
 
-# Trap exit and kill children
-trap cleanup EXIT
+# Trap EXIT, SIGINT, and SIGTERM
+trap cleanup EXIT SIGINT SIGTERM
 
-# Wait for all processes, not just the first to die
-wait -n || true
+# ----------------------------
+# 5. Wait for all processes
+# ----------------------------
+echo "Airflow is running. Logs can be found in $AIRFLOW_HOME/logs"
+wait -n
