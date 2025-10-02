@@ -1040,3 +1040,4 @@
 {"timestamp":"2025-10-02T13:08:00.940330","level":"info","event":"Filling up the DagBag from /app/airflow/dags/Manual_GP_API_Transactions/test.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-10-02T13:08:31.387838","level":"info","event":"Filling up the DagBag from /app/airflow/dags/Manual_GP_API_Transactions/test.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-10-02T13:09:01.841937","level":"info","event":"Filling up the DagBag from /app/airflow/dags/Manual_GP_API_Transactions/test.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-02T13:09:32.319639","level":"info","event":"Filling up the DagBag from /app/airflow/dags/Manual_GP_API_Transactions/test.py","logger":"airflow.models.dagbag.DagBag"}
