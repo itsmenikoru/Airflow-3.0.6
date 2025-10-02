@@ -1,0 +1,13 @@
+{"timestamp":"2025-10-01T12:45:44.915178","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-10-01T12:45:44.916355","level":"info","event":"Filling up the DagBag from /app/airflow/dags/Manual_GP_API_Transactions/testdag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-01T12:45:45.040886Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-01T12:45:45.041354Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-01T12:45:45.041507Z","level":"info","event":"Current task name:load","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-01T12:45:45.041590Z","level":"info","event":"Dag name:test_log_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-01T12:45:45.041663Z","level":"info","event":"Hello World Load","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-01T12:45:45.040035","level":"info","event":"DAG is running fine in Airflow 3.0.6! [LOAD]","logger":"root"}
+{"timestamp":"2025-10-01T12:45:45.040267","level":"info","event":"Done. Returned value was: Loaded","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-10-01T12:45:45.040645","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01999fce-7867-714c-905b-866df1a3de5e'), task_id='load', dag_id='test_log_dag', run_id='manual__2025-10-01T12:45:32.126783+00:00', try_number=1, map_index=-1, hostname='Nikoru.localdomain', context_carrier=None, task=<Task(_PythonDecoratedOperator): load>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2025, 10, 1, 12, 45, 42, 929813, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None, log_url='http://localhost:8080/dags/test_log_dag/runs/manual__2025-10-01T12%3A45%3A32.126783%2B00%3A00/tasks/load?try_number=1')","logger":"task"}
+{"timestamp":"2025-10-01T12:45:45.108108Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-01T12:45:45.108295Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-01T12:45:45.108458Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): load>","chan":"stdout","logger":"task"}

@@ -1,0 +1,142 @@
+2025-10-01 20:46:37,578 WARNING - Could not import pandas. Holidays will not be considered.
+2025-10-01 20:46:37,616 INFO - Starting the scheduler
+2025-10-01 20:46:37,619 INFO - Loaded executor: :LocalExecutor:
+2025-10-01 20:46:37,626 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-01 20:51:37,719 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-01 20:56:37,751 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-01 21:01:37,786 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-01 22:16:10,389 INFO - Heartbeat recovered after 4215.09 seconds
+2025-10-01 22:32:13,353 INFO - Heartbeat recovered after 962.98 seconds
+2025-10-01 22:32:48,742 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-01 22:37:48,789 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-01 23:32:10,095 INFO - Heartbeat recovered after 3102.23 seconds
+2025-10-01 23:32:11,197 INFO - Heartbeat recovered after 3092.43 seconds
+2025-10-02 06:38:31,729 INFO - Heartbeat recovered after 25580.57 seconds
+2025-10-02 08:26:48,072 INFO - Heartbeat recovered after 6497.13 seconds
+2025-10-02 08:26:52,550 INFO - Heartbeat recovered after 6495.78 seconds
+2025-10-02 08:28:52,603 INFO - checking for stale bundle versions locally
+2025-10-02 08:28:52,612 INFO - DAG bundles loaded: dags-folder, example_dags
+2025-10-02 08:28:52,852 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 08:33:52,883 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 08:38:52,937 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 08:43:52,985 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 08:48:53,013 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 08:53:53,071 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 08:58:52,649 INFO - checking for stale bundle versions locally
+2025-10-02 08:58:52,652 INFO - DAG bundles loaded: dags-folder, example_dags
+2025-10-02 08:58:53,153 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 09:03:53,177 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 09:08:53,199 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 09:13:53,221 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 09:18:53,268 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 09:23:53,291 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 09:28:52,670 INFO - checking for stale bundle versions locally
+2025-10-02 09:28:52,671 INFO - DAG bundles loaded: dags-folder, example_dags
+2025-10-02 09:28:53,317 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 09:33:53,337 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 09:38:53,358 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 09:43:53,375 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 09:48:53,392 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 09:53:53,412 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 09:58:52,687 INFO - checking for stale bundle versions locally
+2025-10-02 09:58:52,687 INFO - DAG bundles loaded: dags-folder, example_dags
+2025-10-02 09:58:53,432 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 10:03:53,451 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 10:08:53,472 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 10:13:53,495 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 10:18:53,516 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 10:23:53,533 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 10:28:52,703 INFO - checking for stale bundle versions locally
+2025-10-02 10:28:52,704 INFO - DAG bundles loaded: dags-folder, example_dags
+2025-10-02 10:28:53,552 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 10:33:53,574 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 10:38:53,592 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 10:43:53,612 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 10:48:53,632 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 10:53:53,653 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 10:58:52,721 INFO - checking for stale bundle versions locally
+2025-10-02 10:58:52,721 INFO - DAG bundles loaded: dags-folder, example_dags
+2025-10-02 10:58:53,672 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 11:03:53,690 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 11:08:53,721 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 11:13:53,739 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 11:18:53,759 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 11:23:53,785 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 11:28:52,739 INFO - checking for stale bundle versions locally
+2025-10-02 11:28:52,764 INFO - DAG bundles loaded: dags-folder, example_dags
+2025-10-02 11:28:53,811 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 11:33:53,833 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 11:38:53,853 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 11:43:53,878 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 11:48:53,897 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 13:11:01,736 INFO - Heartbeat recovered after 4663.57 seconds
+2025-10-02 13:11:03,369 INFO - Heartbeat recovered after 2701.11 seconds
+2025-10-02 13:11:33,310 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 13:31:21,836 INFO - Heartbeat recovered after 1094.12 seconds
+2025-10-02 13:34:41,231 INFO - checking for stale bundle versions locally
+2025-10-02 13:34:41,243 INFO - DAG bundles loaded: dags-folder, example_dags
+2025-10-02 13:34:42,372 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 13:39:42,388 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 13:44:42,405 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 13:49:42,425 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 13:54:42,442 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 13:59:42,459 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 14:04:41,263 INFO - checking for stale bundle versions locally
+2025-10-02 14:04:41,264 INFO - DAG bundles loaded: dags-folder, example_dags
+2025-10-02 14:04:42,474 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 14:09:42,490 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 14:14:42,512 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 14:19:42,529 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 14:24:42,546 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 14:29:42,566 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 14:34:41,280 INFO - checking for stale bundle versions locally
+2025-10-02 14:34:41,281 INFO - DAG bundles loaded: dags-folder, example_dags
+2025-10-02 14:34:42,586 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 14:39:42,603 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 14:44:42,624 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 14:49:42,647 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 14:54:42,672 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 14:59:42,704 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 15:04:41,305 INFO - checking for stale bundle versions locally
+2025-10-02 15:04:41,306 INFO - DAG bundles loaded: dags-folder, example_dags
+2025-10-02 15:04:42,725 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 15:09:42,756 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 15:14:42,780 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 15:19:42,814 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 15:24:43,309 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 15:29:43,337 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 15:34:41,793 INFO - checking for stale bundle versions locally
+2025-10-02 15:34:41,794 INFO - DAG bundles loaded: dags-folder, example_dags
+2025-10-02 15:34:43,368 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 15:39:43,390 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 15:44:43,421 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 15:49:43,446 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 15:54:43,465 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 15:59:43,489 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 16:04:41,819 INFO - checking for stale bundle versions locally
+2025-10-02 16:04:41,820 INFO - DAG bundles loaded: dags-folder, example_dags
+2025-10-02 16:04:43,519 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 16:09:43,543 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 16:14:43,562 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 16:19:43,582 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 16:24:43,611 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 16:29:43,635 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 16:34:41,840 INFO - checking for stale bundle versions locally
+2025-10-02 16:34:41,841 INFO - DAG bundles loaded: dags-folder, example_dags
+2025-10-02 16:34:43,658 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 16:39:43,676 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 16:44:43,696 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 16:49:43,727 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 16:54:43,746 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 16:59:43,767 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 17:04:41,864 INFO - checking for stale bundle versions locally
+2025-10-02 17:04:41,864 INFO - DAG bundles loaded: dags-folder, example_dags
+2025-10-02 17:04:43,785 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 17:09:43,807 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 17:14:43,829 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 17:19:43,848 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 17:24:43,869 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-10-02 18:46:59,972 INFO - Heartbeat recovered after 4830.95 seconds
+2025-10-02 18:47:01,065 INFO - Heartbeat recovered after 4825.37 seconds
+2025-10-02 19:40:52,922 INFO - Heartbeat recovered after 3231.88 seconds
+2025-10-02 19:43:55,485 INFO - Adopting or resetting orphaned tasks for active dag runs
